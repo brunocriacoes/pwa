@@ -1,0 +1,16 @@
+{
+    "name" : "PWA EXEMPLO",
+    "short_name" : "PWA",
+    "icons" : [
+        {
+            "src" : "/disc/logo/ico-32x32.png",
+            "sizes" : "32x32",
+            "type" : "image/png"
+        }
+    ],
+    "start_url" : "/index.html",
+    "theme_color" : "#CC0000",
+    "background_color" : "#880000",
+    "display" : "standalone",
+    "orientation" : "portrait"
+}
