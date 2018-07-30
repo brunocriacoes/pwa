@@ -2,13 +2,13 @@
 var dataCacheName = 'pwa-brc';
 var cacheName = 'pwa-brc-final';
 var filesToCache = [
-    '/',
-    '/disc/css/style.css',
-    '/disc/css/mobile.css',
-    '/disc/js/app.js',
-    '/disc/js/config.js',
-    '/disc/js/help.js', 
-    '/disc/logo/logo.svg'   
+    '/pwa/',
+    '/pwa/disc/css/style.css',
+    '/pwa/disc/css/mobile.css',
+    '/pwa/disc/js/app.js',
+    '/pwa/disc/js/config.js',
+    '/pwa/disc/js/help.js', 
+    '/pwa/disc/logo/logo.svg'   
 ];
 
 self.addEventListener('install', function(e) {
