@@ -1,14 +1,15 @@
 {
     "name" : "PWA EXEMPLO",
     "short_name" : "PWA",
+    "description" : "PWA de exemplo para demostração de recursos",
     "icons" : [
         {
-            "src" : "/disc/logo/ico-32x32.png",
+            "src" : "/disc/logo/ico.png",
             "sizes" : "32x32",
             "type" : "image/png"
         }
     ],
-    "start_url" : "/index.html",
+    "start_url" : "/",
     "theme_color" : "#CC0000",
     "background_color" : "#880000",
     "display" : "standalone",

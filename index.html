@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="manifest" href="./manifest.json">
     <title>PWA</title>
+    <link rel="stylesheet" href="./disc/css/style.css">
+    <link rel="stylesheet" href="./disc/css/mobile.css" media="( max-width: 760px )">
 </head>
 <body>
     <h1>hello World</h1>
@@ -15,7 +17,7 @@
     <script src="./disc/js/app.js"></script>
     <script>
         if( navigator.serviceWorker ) {
-            navigator.serviceWorker.register( './disc/js/sw.js' )
+            navigator.serviceWorker.register( '/disc/js/sw.js' )
         }
     </script>
 </body>
