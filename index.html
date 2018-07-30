@@ -8,6 +8,7 @@
     <title>PWA</title>
     <link rel="stylesheet" href="./disc/css/style.css">
     <link rel="stylesheet" href="./disc/css/mobile.css" media="( max-width: 760px )">
+    <link rel="shortcut icon" href="./disc/logo/ico.png" type="image/x-icon">
 </head>
 <body>
     <h1>hello World</h1>
@@ -15,9 +16,10 @@
     <script src="./disc/js/config.js"></script>
     <script src="./disc/js/help.js"></script>
     <script src="./disc/js/app.js"></script>
+    <script src="./disc/js/sw.js"></script>
     <script>
         if( navigator.serviceWorker ) {
-            navigator.serviceWorker.register( '/disc/js/sw.js' )
+            navigator.serviceWorker.register( './disc/js/sw.js' )
         }
     </script>
 </body>

@@ -1,8 +1,8 @@
 const CACHE_NAME  = "brc-pwa";
 const CACHE_FILES = [
-    '/',
-    '/disc/css/mobile.css',
-    '/disc/logo/ico.png'
+    './',
+    './disc/css/mobile.css',
+    './disc/logo/ico.png'
 ];
 
 self.addEventListener('install', function(event) {
