@@ -7,6 +7,8 @@
     "scope": "/pwa/",
     "start_url": "/pwa/index.html",
     "lang": "pt-BR",
+    "description": "PWA de exemplo.",
+    "dir": "auto",
     "orientation": "any",
     "icons" : [
         {
