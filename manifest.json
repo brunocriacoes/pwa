@@ -1,7 +1,13 @@
 {
-    "name" : "PWA EXEMPLO",
-    "short_name" : "PWA",
-    "description" : "PWA de exemplo para demostração de recursos",
+    "name": "PWA EXEMPLO",
+    "short_name": "PWA",
+    "theme_color": "#CC0000",
+    "background_color": "#880000",
+    "display": "standalone",
+    "scope": "/pwa/",
+    "start_url": "/pwa/index.html",
+    "lang": "pt-BR",
+    "orientation": "any",
     "icons" : [
         {
             "src" : "disc/logo/icon-72x72.png",
@@ -43,10 +49,5 @@
             "sizes" : "512x512",
             "type" : "image/png"
         }        
-    ],
-    "start_url" : "/pwa/index.html",
-    "theme_color" : "#CC0000",
-    "background_color" : "#880000",
-    "display" : "standalone",
-    "orientation" : "portrait"
+    ]
 }
