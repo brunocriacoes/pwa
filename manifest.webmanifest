@@ -10,6 +10,22 @@
     "description": "PWA de exemplo.",
     "dir": "auto",
     "orientation": "any",
+    "serviceworker": {
+        "src": "/pwa/js/sw.js",
+        "scope": "/pwa/",
+        "update_via_cache": "none"
+    },
+    "screenshots": [
+        {
+            "src": "screenshots/640x480.jpg",
+            "sizes": "640x480",
+            "type": "image/jpeg"
+        },{
+            "src": "screenshots/1280x920.jpg",
+            "sizes": "1280x920",
+            "type": "image/jpeg"
+        }
+    ],
     "icons" : [
         {
             "src" : "disc/logo/icon-72x72.png",
